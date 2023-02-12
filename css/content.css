@@ -1,0 +1,57 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 911px;
+  margin-left: 194px;
+}
+
+.title {
+  margin: 33px 0 25px 0;
+}
+
+.title-text {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.lesson-img {
+  width: 100%;
+  max-width: 523px;
+  margin-bottom: 15px;
+}
+
+.description {
+  position: relative;
+  max-width: 630px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.description-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.description-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.learning-together-logo {
+  position: absolute;
+  top: -55px; right: -150px;
+  font-family: 'lobster';
+  font-size: 36px;
+  color: #646464;
+}
+
+@media (max-width: 1300px) {
+  .content {
+    margin-left: 20px;
+  }
+
+  .learning-together-logo {
+    display: none;
+  }
+}

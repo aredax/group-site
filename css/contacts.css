@@ -1,0 +1,40 @@
+.address-title {
+  display: flex;
+  margin: 33px 0 25px 286px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.icon-img {
+  width: 30px;
+}
+
+.map-img {
+  width: 100%;
+  min-width: 640px;
+  max-width: 1120px;
+  padding-bottom: 15px;
+}
+
+.address {
+  margin-left: 286px;
+}
+
+.address-text-title {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.address-text {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1300px) {
+  .address-title, .address {
+    margin-left: 20px;
+  }
+}

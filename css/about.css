@@ -1,0 +1,36 @@
+.about {
+  padding-left: 216px;
+}
+
+.about-course {
+  display: flex;
+  margin: 33px 0 0 0;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.icon-img {
+  width: 30px; height: 30px;
+  padding-bottom: 25px;
+}
+
+.look-our-video {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.about-us-video {
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1300px) {
+  .about {
+    padding-left: 20px;
+  }
+}

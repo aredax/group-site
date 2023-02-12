@@ -1,0 +1,95 @@
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 119px;
+}
+
+.stud-title {
+  display: flex;
+  height: 32px;
+  margin: 37px 0 24px 0;
+}
+
+.course-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.icon-img {
+  width: 30px; height: 30px;
+  margin: 0;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.student-1 {
+  position: relative;
+}
+
+.caption-1 {
+  position: absolute;
+  left: 60px;
+}
+
+.student-2 {
+  position: relative;
+}
+
+.new-student-logo {
+  position: absolute;
+  right: -18px;
+  top: -12px;
+  width: 94px;
+  height: 24px;
+  background-color: #3AA828;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.caption-2 {
+  position: absolute;
+  left: 60px;
+}
+
+.student-3 {
+  position: relative;
+}
+
+.caption-3 {
+  position: absolute;
+  left: 60px;
+}
+
+.student-4 {
+  position: relative;
+}
+
+.caption-4 {
+  position: absolute;
+  left: 60px;
+}
+
+.student-5 {
+  position: relative;
+}
+
+.caption-5 {
+  position: absolute;
+  left: 60px;
+}
+
+@media (max-width: 1300px) {
+  .students {
+    padding-left: 20px;
+  }
+}

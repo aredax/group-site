@@ -1,0 +1,9 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: 'roboto';
+  font-weight: 400;
+
+  width: 100%;
+  max-width: 1300px;
+}

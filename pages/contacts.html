@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Студенты</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/contacts.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/pop-up.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+  <header class="header">
+    <img class="logo" src="../images/logo.svg">
+    <nav class="menu">
+      <a class="menu-link" href="../index.html">Главная</a>
+      <a class="menu-link" href="../pages/students.html">Студенты</a>
+      <a class="menu-link" href="../pages/about.html">О курсе</a>
+      <a class="menu-link-active" href="#">Контакты</a>
+    </nav>
+    <button class="login-button">Войти</button>
+  </header>
+  <main>
+    <div class="address-title">
+      <h1 class="title">Как нас найти</h1> &#160;
+      <img class="icon-img" src="../images/hand-right-4.png">
+    </div>
+    <img class="map-img" src="../images/google-map.png" title="Как нас найти">
+    <div class="address">
+      <h2 class="address-text-title">Наши контакты</h2>
+      <p class="address-text">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
+      <p class="address-text">Тел: +7 (812) 555-55-55</p>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>2022 &copy;&nbsp;<u>учебный центр</u></p>
+  </footer>
+  <div class="form-background">
+    <form class="login-popup">
+      <h2 class="login-title">Войти на сайт</h2>
+      <div class="form-close">x</div>
+      <input class="login-field" placeholder="Логин" type="text" required>
+      <input class="login-field" placeholder="Пароль" type="text" required>
+      <button class="popup-button">Войти</button>
+    </form>
+  </div>
+  <script src="../js/pop-up.js"></script>
+</body>
+</html>
