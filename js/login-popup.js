@@ -11,7 +11,7 @@ function showPopUp (evt) {
 
 
 
-let closePopUp = document.querySelector('.form-close');
+let closePopUp = document.querySelector('.popup-close');
 
 closePopUp.addEventListener('click', () => {
   formBackground.style.display = 'none'

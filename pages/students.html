@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/students.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/login-popup.css">
+  <link rel="stylesheet" href="../css/student-popup.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -29,12 +30,12 @@
   <main class="students">
     <div class="course-title">
       <h1>Студенты потока 08.02.2020 &#160;</h1>
-      <img class="icon-img" src="../images/hand-right-4.png">
+      <img class="icon-img" src="../images/student-icon.png">
       <img class="icon-img" src="../images/tg.png">
     </div>
     <div class="photos">
       <div class="student-1">
-        <img class="photo-1" src="../images/Rectangle.png" title="Маша">
+        <img class="photo-1" src="../images/studentessa.png" title="Маша">
         <p class="caption-1">Маша</p>
       </div>
       <div class="student-2">
@@ -62,12 +63,32 @@
   <div class="form-background">
     <form class="login-popup">
       <h2 class="login-title">Войти на сайт</h2>
-      <div class="form-close">x</div>
+      <div class="popup-close">x</div>
       <input class="login-field" placeholder="Логин" type="text" required>
       <input class="login-field" placeholder="Пароль" type="text" required>
       <button class="popup-button">Войти</button>
     </form>
   </div>
-  <script src="../js/pop-up.js"></script>
+  <div class="student-background">
+    <div class="student-popup">
+      <div class="popup-close">x</div>
+      <div class="student-card">
+        <img class="student-photo" src="../images/studentessa.png">
+        <div class="student-description">
+          <h4 class="question">Имя: <span class="answer">Маша</span></h4>
+          <h4 class="question">Фамилия: <span class="answer">Сидорова</span></h4>
+          <h4 class="question">Навыки: <span class="answer">Работа с компьютером, Word, Excel</span></h4>
+          <h4 class="about-student">О себе:</h4>
+          <p class="about-student">
+            Меня зовут Маша. Я умею варить супы, увлекаюсь оригами и лепкой из суралина. Люблю петь, смотреть фильмы и работать по дому.
+          </p><p class="about-student">
+            На этот курс я решила поступить, чтобы уметь ещё и верстать сайты.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/login-popup.js"></script>
+  <script src="../js/student-popup.js"></script>
 </body>
 </html>

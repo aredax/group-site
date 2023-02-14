@@ -1,0 +1,72 @@
+.student-background {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: #00000030;
+}
+
+.student-popup {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 500px;
+  height: 420px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px 20px #000;
+  border: none;
+  margin: 140px auto 0 auto;
+}
+
+.popup-close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  font-family: 'Segoe UI';
+  color: #ea611390;
+  text-align: center;
+  border: 1px solid #ea621340;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.student-card {
+
+  top: 0;
+  line-height: 115%;
+  padding: 20px;
+}
+
+/* .student-photo {
+
+} */
+
+.student-description {
+  position: absolute;
+  top: 0;
+  left: 220px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+p::first-letter, span::first-letter {
+  font-size: 16px;
+}
+
+.question {
+  padding-bottom: 10px;
+}
+
+.answer {
+  position: absolute;
+  left: 94px;
+}
+
+.about-student {
+  padding-top: 10px;
+}
+
+.show-popup {
+  display: block;
+}
