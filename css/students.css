@@ -5,19 +5,17 @@
   padding-left: 119px;
 }
 
-.stud-title {
+.course-title {
   display: flex;
   height: 32px;
+  font-weight: 700;
+  font-size: 30px;
   margin: 37px 0 24px 0;
 }
 
-.course-title {
-  font-weight: 700;
-  font-size: 30px;
-}
-
 .icon-img {
-  width: 30px; height: 30px;
+  width: 30px;
+  height: 30px;
   margin: 0;
 }
 

@@ -38,9 +38,24 @@
   margin-bottom: 15px;
 }
 
+.h2-em {
+  font-style: italic;
+  color: #ea5d21;
+}
+
+.description-text::first-letter {
+  float: left;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 36px;
+  color: #ea5d21;
+  padding: 0 6px 0 0;
+}
+
 .learning-together-logo {
   position: absolute;
-  top: -55px; right: -150px;
+  top: 0;
+  right: -280px;
   font-family: 'lobster';
   font-size: 36px;
   color: #646464;

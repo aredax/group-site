@@ -1,6 +1,6 @@
 .address-title {
   display: flex;
-  margin: 33px 0 25px 286px;
+  margin: 33px 0 25px 186px;
 }
 
 .title {
@@ -14,13 +14,14 @@
 
 .map-img {
   width: 100%;
-  min-width: 640px;
+  min-width: 320px;
   max-width: 1120px;
+  margin-left: 100px;
   padding-bottom: 15px;
 }
 
 .address {
-  margin-left: 286px;
+  margin-left: 186px;
 }
 
 .address-text-title {
@@ -36,5 +37,9 @@
 @media (max-width: 1300px) {
   .address-title, .address {
     margin-left: 20px;
+  }
+
+  .map-img {
+    margin-left: 10px;
   }
 }
