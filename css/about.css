@@ -1,4 +1,6 @@
-.about {
+.about {  
+  height: calc(100vh - 140px);
+  overflow-y: auto;
   padding-left: 216px;
 }
 

@@ -1,5 +1,9 @@
+.contacts {
+  height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
 .address-title {
-  display: flex;
   margin: 33px 0 25px 186px;
 }
 

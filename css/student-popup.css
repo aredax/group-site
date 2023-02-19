@@ -17,7 +17,7 @@
   margin: 140px auto 0 auto;
 }
 
-.popup-close {
+.form-close {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -32,8 +32,6 @@
 }
 
 .student-card {
-
-  top: 0;
   line-height: 115%;
   padding: 20px;
 }

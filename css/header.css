@@ -13,31 +13,38 @@
 
 .menu {
   display: flex;
+  justify-content: center;
+  align-items: baseline;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 380px;
-  align-items: baseline;
-  gap: 0 30px;
+  font-size: 14px;
 }
 
 .menu-link {
   display: flex;
   align-items: center;
+  height: 80px;
   color: #fff;
   text-decoration-line:underline;
-  font-size: 14px;
+  padding: 0 15px;
+}
+
+.menu-link:hover {
+  display: flex;
+  align-items: center;
+  background-color: #ffffffe7;
+  color: #213b7e;
+  text-decoration-line: none;  
 }
 
 .menu-link-active {
   display: flex;
   align-items: center;
-  margin: 0;
-  padding: 0 15px;
   height: 80px;
   background-color: #fff;
   color: #213b7e;
-  text-decoration-line: none;  
-  font-size: 14px;
+  text-decoration-line: none;
+  padding: 0 15px;  
 }
 
 .login-button {

@@ -10,7 +10,8 @@ function showPopUp (evt) {
 };
 
 
-let closeStudPopUp = document.querySelector('.popup-close');
+
+let closeStudPopUp = document.querySelector('.form-close');
 
 closeStudPopUp.addEventListener('click', () => {
   studBackground.style.display = 'none'

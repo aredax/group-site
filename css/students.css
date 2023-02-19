@@ -1,5 +1,7 @@
 .students {
   display: flex;
+  height: calc(100vh - 140px);
+  overflow-y: auto; 
   flex-wrap: wrap;
   width: 100%;
   padding-left: 119px;
@@ -20,11 +22,16 @@
 
 .photos {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
   width: 100%;
-  font-size: 20px;
-  padding-bottom: 20px;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+.photos::first-letter {
+  font-size: 22px;
 }
 
 .student-1 {
@@ -32,13 +39,24 @@
   cursor: pointer;
 }
 
+.student-1:hover {
+  transform: scale(1.1);
+  transition: 50ms;
+}
+
 .caption-1 {
   position: absolute;
-  left: 60px;
+  left: 74px;
 }
 
 .student-2 {
   position: relative;
+  /* cursor: pointer; */
+}
+
+.student-2:hover {
+  transform: scale(1.1);
+  transition: 50ms;
 }
 
 .new-student-logo {
@@ -56,7 +74,7 @@
 
 .caption-2 {
   position: absolute;
-  left: 60px;
+  left: 66px;
 }
 
 .student-3 {
@@ -65,7 +83,7 @@
 
 .caption-3 {
   position: absolute;
-  left: 60px;
+  left: 70px;
 }
 
 .student-4 {
@@ -74,7 +92,7 @@
 
 .caption-4 {
   position: absolute;
-  left: 60px;
+  left: 74px;
 }
 
 .student-5 {
@@ -83,7 +101,7 @@
 
 .caption-5 {
   position: absolute;
-  left: 60px;
+  left: 74px;
 }
 
 @media (max-width: 1300px) {

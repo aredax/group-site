@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>О себе</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/about-me.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/login-popup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+  <header class="header">
+    <img class="logo" src="../images/logo.svg">
+    <nav class="menu">
+      <a class="menu-link" href="../index.html">Главная</a>
+      <a class="menu-link" href="../pages/students.html">Студенты</a>
+      <a class="menu-link" href="../pages/about.html">О курсе</a>
+      <a class="menu-link" href="../pages/contacts.html">Контакты</a>
+    </nav>
+    <button class="login-button">Войти</button>
+  </header>
+  <main class="about-me">
+    <div class="aboutme-div">
+      <h1 class="about-title">О себе</h1>
+      <p class="aboutme-paragraph">Пару слов о себе и просто для того, чтобы тут получился довольно длинненький текст</p>
+      <img class="me-photo" src="../images/Rectangle.png" title="Камиль">
+      <p class="aboutme-text"><span class="aboutme-questions">Имя:</span>
+        <span class="aboutme-answers">Камиль</span></p>
+      <p class="aboutme-text"><span class="aboutme-questions">Имя:</span>
+        <span class="aboutme-answers">Камиль</span></p>
+      <p class="aboutme-text"><span class="aboutme-questions">Навыки:</span>
+        <span class="aboutme-answers">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eum fugiat unde nobis rem deleniti omnis suscipit sint, minus culpa nisi adipisci dolorem nam nihil neque voluptatibus! Neque, accusamus provident.</span></p>
+      <p class="aboutme-text"><span class="aboutme-questions">Навыки:</span>
+        <span class="aboutme-answers">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sapiente.</span></p>
+      <div class="my-other-photos">
+        <img class="myphoto1" src="../images/photo_1.jpg">
+        <img class="myphoto2" src="../images/photo_2.jpg">
+        <img class="myphoto3" src="../images/photo_3.jpg">
+      </div>
+    </div>
+    <div class="back-to-studpage">
+      <a href="../pages/students.html">
+        <button class="back-button">Назад к "Студентам"</button>
+      </a>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>2022 &copy;&nbsp;<u>учебный центр</u></p>
+  </footer>
+  <div class="form-background">
+    <form class="login-popup">
+      <h2 class="login-title">Войти на сайт</h2>
+      <div class="form-close">x</div>
+      <input class="login-field" placeholder="Логин" type="text" required>
+      <input class="login-field" placeholder="Пароль" type="text" required>
+      <button class="popup-button">Войти</button>
+    </form>
+  </div>
+  <script src="../js/login-popup.js"></script>
+  <script src="../js/about-me.js"></script>
+</body>
+</html>

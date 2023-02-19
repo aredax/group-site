@@ -1,8 +1,11 @@
 .content {
   display: flex;
+  flex-grow: 1;
   flex-wrap: wrap;
   width: 100%;
   max-width: 911px;
+  height: calc(100vh - 140px);
+  overflow-y: auto;
   margin-left: 194px;
 }
 
