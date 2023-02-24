@@ -17,7 +17,7 @@
   margin: 140px auto 0 auto;
 }
 
-.form-close {
+.popup-close {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -29,6 +29,14 @@
   border: 1px solid #ea621340;
   border-radius: 3px;
   cursor: pointer;
+  z-index: 2;
+}
+
+.popup-close:hover {
+  transform: scale(1.2);
+  border: 1px solid #ea611360;
+  color: #ea6113;
+  box-shadow: #ea611320 1px 1px 2px, #ea611320 -1px -1px 2px;
 }
 
 .student-card {

@@ -31,29 +31,34 @@
     <button class="login-button">Войти</button>
   </header>
   <main class="about-me">
-    <div class="aboutme-div">
-      <h1 class="about-title">О себе</h1>
-      <p class="aboutme-paragraph">Пару слов о себе и просто для того, чтобы тут получился довольно длинненький текст</p>
-      <img class="me-photo" src="../images/Rectangle.png" title="Камиль">
-      <p class="aboutme-text"><span class="aboutme-questions">Имя:</span>
-        <span class="aboutme-answers">Камиль</span></p>
-      <p class="aboutme-text"><span class="aboutme-questions">Имя:</span>
-        <span class="aboutme-answers">Камиль</span></p>
-      <p class="aboutme-text"><span class="aboutme-questions">Навыки:</span>
-        <span class="aboutme-answers">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eum fugiat unde nobis rem deleniti omnis suscipit sint, minus culpa nisi adipisci dolorem nam nihil neque voluptatibus! Neque, accusamus provident.</span></p>
-      <p class="aboutme-text"><span class="aboutme-questions">Навыки:</span>
-        <span class="aboutme-answers">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sapiente.</span></p>
-      <div class="my-other-photos">
-        <img class="myphoto1" src="../images/photo_1.jpg">
-        <img class="myphoto2" src="../images/photo_2.jpg">
-        <img class="myphoto3" src="../images/photo_3.jpg">
-      </div>
+    <section class="aboutme-heading">
+      <h1 class="aboutme-title">О себе</h1>
+      <p class="aboutme-paragraph">Страница с текстом обо мне</p>
+    </section>
+    <div class="aboutme-content">
+      <section class="all-photos">
+        <img class="me-photo" src="../images/Rectangle.png" title="Камиль">
+        <div class="other-photos">
+          <img class="myphoto1" src="../images/photo_1.jpg">
+          <img class="myphoto2" src="../images/photo_2.jpg">
+          <img class="myphoto3" src="../images/photo_3.jpg">
+        </div>
+      </section>
+      <section class="aboutme-info">  
+        <div class="aboutme-text1">
+          <p class="aboutme-questions">Имя:</p>
+          <p class="aboutme-answers">Камиль</p>
+        </div>
+        <div><p class="aboutme-questions">Навыки:</p>
+          <p class="aboutme-answers">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eum fugiat unde nobis rem deleniti omnis suscipit sint, minus culpa nisi adipisci dolorem nam nihil neque voluptatibus! Neque, accusamus provident.</p>
+        </div>
+      </section>
     </div>
-    <div class="back-to-studpage">
-      <a href="../pages/students.html">
+    <section class="aboutme-back-button">
+      <a class="back-to-studpage" href="../pages/students.html">
         <button class="back-button">Назад к "Студентам"</button>
       </a>
-    </div>
+    </section>
   </main>
   <footer class="footer">
     <p>2022 &copy;&nbsp;<u>учебный центр</u></p>
