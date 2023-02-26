@@ -4,7 +4,7 @@
 }
 
 .address-title {
-  margin: 33px 0 25px 186px;
+  margin: 33px 0 25px 100px;
 }
 
 .title {
@@ -20,12 +20,12 @@
   width: 100%;
   min-width: 320px;
   max-width: 1120px;
-  margin-left: 100px;
+  margin-left: 180px;
   padding-bottom: 15px;
 }
 
 .address {
-  margin-left: 186px;
+  margin-left: 100px;
 }
 
 .address-text-title {

@@ -33,8 +33,9 @@
 }
 
 .popup-close:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
   border: 1px solid #ea611360;
+  border-radius: 16px;
   color: #ea6113;
   box-shadow: #ea611320 1px 1px 2px, #ea611320 -1px -1px 2px;
 }
